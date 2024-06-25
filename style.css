@@ -1,0 +1,428 @@
+*{
+    margin :0;
+    padding:0;
+    font-family: Arial;
+    border: border-box; /*border size or padding must be count within its height and width. contect chota hojaa chaiye*/
+
+}
+
+.navbar{
+    height : 60px;
+    width: 1510px;
+    background-color: #0F1111;
+   color : white;
+   display: flex;
+   align-items: center; 
+   /* jitne bhi element hain navbar me vo center me align ho jaayenge */
+   justify-content: space-evenly;
+}
+.logo-img{
+border: 2px solid transparent;
+}
+.logo-img:hover{
+    border: 2px solid white;
+}
+.ad1{
+    font-size: 0.85rem;
+    color: #cccccc ;
+    margin-left: 15px;
+    /* padding-left: 8px; */
+}
+.ad2{
+    margin-left: 4px;
+}
+.icon{
+
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center; /* change in icon can be seen it got aligned*/
+}
+ .deliver{ 
+    padding : 9px; 
+    /* karenge jisse hover pure box par hoga */
+    /* because we did align items center in navbar so this is not needed  */
+} 
+.deliver:hover{
+    border: 2px solid white;
+}
+.search{
+    display : flex; 
+    /*for magnifying glass icon  */
+    justify-content:space-evenly ;
+    /*  sab evenly spread ho  */
+    background-color: rgb(230, 183, 13);
+    height : 40px;
+    width : 50%;
+    border-radius: 4px;
+    
+}
+.search:hover{
+    border: 2px solid rgb(230, 183, 13);
+}
+   
+.all{
+    width: 60px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    margin-right: 1px;
+    
+    
+}
+.type{
+    width:100%; 
+    /* search bar taking the remaining space */
+    border: none;
+    font-size: 1rem;
+    
+}
+.searchicon{
+width : 60px;
+display :flex;
+justify-content: center;
+/* ḥorizontally center */
+align-items: center; 
+/* vertically center */
+font-size: 1.2rem;
+color: black;
+}
+
+.signin{
+    font-size: 0.80rem;
+ }   
+ .acc{
+background-color:black;
+font-weight: bold;
+font-size: 0.9rem;
+color: white;
+border: none;
+
+ }
+.hello:hover{
+    border: 2px solid white;
+    padding: 9px;
+}
+.return:hover{
+    border: 2px solid white;
+    padding: 9px;
+}
+.cart{
+    display:flex;
+   align-items: baseline;
+   font-size: 0.80rem;
+   font-weight: 700;
+}
+.cart i{
+    
+    font-size: 30px;
+}
+.cart:hover{
+    border: 2px solid white;
+    padding: 9px;
+    
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+    padding:7px;
+}
+.second{
+    display: flex;
+    height: 40px;
+    background-color:#222f3e;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+    width:1510px;
+
+}
+.options p{
+    display: inline; 
+    /*for paragrqaph tags to align  */
+    margin-left:15px;
+    
+}
+.options{
+    width: 70%;
+    justify-content: space-between;
+    font-size: 0.90rem;
+    
+}
+.menu{
+    font-weight: bold;
+}
+.shoping{
+    font-weight: 700;
+}
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    /* jisse bg image puri aaye */
+    height:400px;
+    width:1510px;
+    display :flex;
+    justify-content: center;
+    align-items:end;
+}
+.link{
+    height:40px;
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width:1200px;
+    margin-bottom: 10px;
+}
+.link a{
+    color:#007184;
+}
+.shop{
+    display: flex;
+    width: 1510px;
+    /* container ko width denge tabhi to box ki width badegi  */
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    /* padding : 20px 0px 15px; */
+    flex-wrap:wrap;
+    /* flex wrap se hamne jo baaki box the unhe next line me bhej diya kyuki hame ek line me 4 hi chaiye the  */
+     
+   
+}
+
+.box{
+   display:inline;
+   
+    border: 2px solid black;
+    height: 380px;
+    width:320px;
+    /* margin: 15px; */
+    background-color: white;
+     padding : 20px 0px 15px;
+     margin-top: 15px;
+     border:none;
+    
+   
+    
+    
+}
+.box1{
+    /* margin-left: 15px; */
+    padding-left:  1rem;
+    padding-right:  1rem;
+
+}
+.box1 a{
+    color:#007184 ;
+}
+
+.img1{
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    height:300px;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}
+.box2{
+    /* margin-left: 15px; */
+    padding-left:  1rem;
+    padding-right:  1rem;
+
+}
+.box2 a{
+    color:#007184 ;
+}
+
+.img2{
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    height:300px;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}.box3{
+    /* margin-left: 15px; */
+    padding-left:  1rem;
+    padding-right:  1rem;
+
+}
+.box3 a{
+    color:#007184 ;
+}
+
+.img3{
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+    height:300px;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}.box4{
+    /* margin-left: 15px; */
+    padding-left:  1rem;
+    padding-right:  1rem;
+
+}
+.box4 a{
+    color:#007184 ;
+}
+
+.img4{
+    background-image: url("box4_image.jpg");
+    background-size: cover;
+    height:300px;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}
+.shop2{
+    display: flex;
+    width: 1510px;
+    /* container ko width denge tabhi to box ki width badegi  */
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    /* padding : 20px 0px 15px; */
+}
+
+.box5{
+    /* margin-left: 15px; */
+    padding-left:  1rem;
+    padding-right:  1rem;
+
+}
+.box5 a{
+    color:#007184 ;
+}
+
+.img5{
+    background-image: url("box5_image.jpg");
+    background-size: cover;
+    height:300px;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}
+.box6{
+    /* margin-left: 15px; */
+    padding-left:  1rem;
+    padding-right:  1rem;
+
+}
+.box6 a{
+    color:#007184 ;
+}
+
+.img6{
+    background-image: url("box6_image.jpg");
+    background-size: cover;
+    height:300px;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}.box7{
+    /* margin-left: 15px; */
+    padding-left:  1rem;
+    padding-right:  1rem;
+
+}
+.box7 a{
+    color:#007184 ;
+}
+
+.img7{
+    background-image: url("box7_image.jpg");
+    background-size: cover;
+    height:300px;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
+    
+}.box8{
+    /* margin-left: 15px; */
+    padding-left:  1rem;
+    padding-right:  1rem;
+
+}
+.box8 a{
+    color:#007184 ;
+}
+
+.img8{
+    background-image: url("box8_image.jpg");
+    background-size: cover;
+    height:300px;
+    /* background-repeat: no-repeat; */
+    margin-top: 1rem;
+    margin-bottom: 1rem;    
+}
+.f{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.panel1{
+    width: 1510px;
+    height: 50px;
+    background-color:#37475a;
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+.panel2{
+    background-color: #222f3d;
+    height:300px;
+    width: 1510px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul p{
+    /* font-weight: 800px; */
+    margin-top: 50px; 
+
+}
+ul a{
+    color: white;
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px; 
+}
+.panel3{
+    background-color: #222f3d;
+    height: 100px;
+    width: 1510px;
+    border-top: 0.5px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.logo2{
+background-image: url("amazon_logo.png");
+    height:50px;
+    width: 100px;
+    background-size: cover;
+    /* back-size diya bina image will not appear */
+}
